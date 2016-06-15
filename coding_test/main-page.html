@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title>
+Coding Test
+</title>
+</head>
+
+<body>
+<h1>Project Management Tool</h1>
+<script id="main-page" type="text/x-handlebars-template">
+<table>
+    <thead> 
+        <th>Name</th> 
+        <th>Tasks</th> 
+    </thead> 
+    <tbody> 
+        {{#users}} 
+        <tr> 
+            <td>{{firstName person}}</td> 
+            <td>{{tasks}}</td>  
+        </tr> 
+        {{/users}} 
+    </tbody> 
+</table>
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+1. SELECT * FROM users_table;
+
+2. select * from users_table where `id` = 2
+
+3.
+
+meals_table
+
+id  meal
+1	type
+2	type	
+3	type
+
+4. CREATE TABLE meals_table (id VARCHAR(20), meals VARCHAR(20);
+
+5. INSERT INTO meals_table where id='1';
+VALUE ('steak');
+
+6. UPDATE users_table
+SET username=“shamoontastic”;
+WHERE id=3;
+
+7. DELETE FROM users_table
+WHERE id=4;
+
+8. SELECT * from meals_table
+where column='meals'
+
+12. Assuming in a wildlife safari, with the lions having shock collars
+	I would design a mobile app and you can press a button that would send a signal to shock lions
